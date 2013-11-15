@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../build/build.css"><style type="text/css">.ui.left-menu {
+  width: 230px;
+}
+.ui.left-menu .ui.menu-button {
+  padding: 20px 0;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  color: #545964;
+  background-color: #262a33;
+  border-left: 4px solid #262a33;
+  border-right: 4px solid #262a33;
+}
+.ui.left-menu .ui.menu-button:hover {
+  color: #7e8493;
+  background-color: #242830;
+}
+.ui.left-menu .ui.menu-button.selected {
+  color: #7e8493;
+  background-color: #1d2027;
+  border-left-color: #e42601;
+}
+.ui.left-menu .ui.menu-button i {
+  font-size: 28px;
+  margin-bottom: 4px;
+}
+.ui.left-menu .ui.menu-button .text {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Helvetica Neue", "Helvetica";
+}
+</style>
+  </head>
+  <body>
+    <div class="ui left-menu">
+      <div data-click-add-class="selected" data-behaviour="solitary" class="ui menu-button selected"><i class="fa fa-calendar"></i>
+        <div class="text">CALENDAR</div>
+      </div>
+      <div data-click-add-class="selected" data-behaviour="solitary" class="ui menu-button"><i class="fa fa-desktop"></i>
+        <div class="text">DESKTOP</div>
+      </div>
+      <div data-click-add-class="selected" data-behaviour="solitary" class="ui menu-button"><i class="fa fa-archive"></i>
+        <div class="text">ARCHIVES</div>
+      </div>
+      <div data-click-add-class="selected" data-behaviour="solitary" class="ui menu-button"><i class="fa fa-credit-card"></i>
+        <div class="text">CREDIT CARD</div>
+      </div>
+      <div data-click-add-class="selected" data-behaviour="solitary" class="ui menu-button"><i class="fa fa-cloud"></i>
+        <div class="text">CLOUD</div>
+      </div>
+      <div data-click-add-class="selected" data-behaviour="solitary" class="ui menu-button"><i class="fa fa-bar-chart-o"></i>
+        <div class="text">CHART</div>
+      </div>
+    </div>
+    <script src="../build/build.js"></script>
+    <script>
+      require('live-data');
+      
+    </script>
+  </body>
+</html>
