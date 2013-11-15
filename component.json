@@ -1,0 +1,19 @@
+{
+  "name": "left-menu",
+  "repo": "bottom/left-menu",
+  "description": "Left menu",
+  "version": "0.0.1",
+  "paths": ["../"],
+  "keywords": [],
+  "dependencies": {
+    "FortAwesome/Font-Awesome": "*",
+    "shallker/live-data": "*"
+  },
+  "development": {
+    "necolas/normalize.css": "*"
+  },
+  "license": "MIT",
+  "styles": [
+    "css/left-menu.css"
+  ]
+}
